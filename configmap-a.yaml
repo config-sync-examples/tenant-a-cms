@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: cm-a
+  namespace: tenant-a
+data:
+  team: tenant-a
+  owner: tenant-a@corp.com
